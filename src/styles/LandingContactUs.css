@@ -1,0 +1,122 @@
+.LandingContactUs{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 33px;
+}
+.contact_us-title{
+    font-size: 50px;
+    color: #674A28;
+    text-align: center;
+    margin: 0;
+}
+.contact_us-subtitle{
+    color: #674A28;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 77px;
+}
+
+.LandingContactItem{
+    width: 219px;
+    height: auto;
+    border-radius: 7px;
+    padding: 63px 18px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.contact_section-wrapper{
+    display: flex;
+    margin-bottom: 34px;
+}
+.contact_icon{
+    width: 85px;
+    height: 86px;
+    margin-bottom: 10px;
+}
+.Landing_contact-title{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #707070;
+    font-size: 16px;
+    
+}
+.Landing_contact-name{
+    margin: 0;
+    font-size: 16px;
+    color: #17B978;
+    text-decoration: none;
+    font-weight: 600;
+}
+.ContactItems-wrapper{
+    display: grid;
+    grid-template-columns : 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+
+/* --------------- MEDIA QUERIES ---------------- */
+
+
+@media(max-width: 1366px){
+    .contact_us-title{
+        font-size: 45px;
+    }
+    .ContactItems-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+}
+@media(max-width: 1200px){
+    .contact_us-title{
+        margin-top: 35px;
+        font-size: 39px;
+    }
+    .ContactItems-wrapper{
+        justify-items:center;
+    }
+    .contact_us-subtitle {
+        font-size: 23px;
+    }
+}
+@media(max-width: 1024px) {
+    .contact_section-wrapper{
+        flex-direction: column-reverse;
+    }
+}
+
+@media(max-width: 768px){
+    .contact_us-title{
+        font-size: 32px;
+    }   
+    
+    .contact_us-subtitle {
+        font-size: 21px;
+        margin-top: 17px;
+        margin-bottom: 44px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
+    @media(max-width:  550px){
+        .LandingContactItem{
+            width: 182px;
+            padding: 63px 0;
+        }
+    }
+    @media(max-width:  370px){
+        .LandingContactItem{
+            width: 161px;
+        }
+    }

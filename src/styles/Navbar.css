@@ -1,0 +1,146 @@
+.navbar{
+    height: 67px;
+    width: 100%;
+    background-color: #2E2E2E;
+    color: #FBFBFB;
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.534);
+    position: fixed;
+    z-index: 4;
+    top:0;
+}
+.navbar-wrapper{
+    max-width: 1179px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.nav-logo{
+    height: 46px;
+    width: 89px;
+}
+
+/* NavSearchBar */
+.search_input{
+    outline: none;
+    height: 34px;
+    width: 310px;
+    border-radius: 3px;
+    border: 0;
+    margin-left: 29px;
+    margin-right: 48px;
+    padding-left: 19px;
+}
+.NavSearchBar-container{
+    display: flex;
+    align-items: center;
+}
+
+/* nav buttons */
+.navButton{
+    color: #fefefe;
+    text-decoration: none;
+    padding-right: 17px;
+    padding-left: 17px;
+    font-size: 16px;
+    font-weight: 600; 
+    height: 87%; 
+    display: flex;
+    align-items: center;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+.navButton:hover{
+    border-bottom: 2px solid #fefefe;
+}
+.NavButtons_container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.home_icon{
+    width: 20px;
+    height: 15px;
+    margin-right: 10px;
+}
+.account_icon{
+    width: 17px;
+    height: 20px;
+    margin-right: 10px;
+}
+.shipping_icon{
+    width: 27px;
+    height: 18px;
+    margin-right: 10px;
+}
+.phone_icon{
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+}
+.logout_icon{
+    width: 15px;
+    height: 18px;
+    margin-right: 10px;
+}
+.menu_icon{
+    position: absolute;
+    left: 25px;
+    top: 24px;
+    display: none;
+}
+.LoginLink{
+    color: #fefefe;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    display: none;
+}
+
+/* RESPONSIVE STYLES */
+@media (max-width: 1200px){
+    .navbar{
+        height: 132px;
+        position: relative;
+    }
+    .navbar-wrapper{
+        align-items: flex-start;
+    }
+    .NavButtons_container{
+        height: 50%;
+    }
+    .NavSearchBar-container{
+        height: 50%;
+    }
+    .search_input{
+        position: absolute;
+        bottom: 20px;
+        left: calc(50vw - 155px);
+        margin: 0;
+    }
+}
+@media (max-width: 769px){
+    .menu_icon, .LoginLink{
+        display: initial;
+    }    
+}
+@media (max-width: 769px){
+    .navbar{
+        height: 111px;
+    }
+    .nav-logo{
+        width: 83px;
+        height: 38px;
+    }
+    .search_input{
+        bottom: 16px;
+        left: calc(50vw - 170px);
+        width: 320px;
+    }
+    
+}

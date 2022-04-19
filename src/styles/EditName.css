@@ -1,0 +1,235 @@
+/*--------------------EDITAR-NOMBRES----------------------*/
+.MainContainer1{
+    padding: 23px;
+}
+/*----------VOLVER AL INICIO---------------*/
+.nav_back{
+    display: flex;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 17px;
+}
+.nav_back a{
+    color: #F29E3E;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.nav_back img{
+    height: 100%;
+    margin-right: 15px;
+}
+
+/*-------------------------EDITAR MI PERFIL---------------------*/
+.text_edit p{
+    text-align: center;
+    margin-bottom: 17px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #878787;
+}
+.container_image{
+    display: flex;
+    justify-content: center;
+
+}
+.image1{
+    position: relative;
+    height: 123px;
+    width: 123px;
+}
+.icon_edit1 a{
+    position: absolute;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    bottom: 10px;
+    right: 5px;
+}
+.icon_edit1 img{
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+}
+
+/*-----------------INFORMACION/NOMBRES/CORREO*-------------------*/
+.names_container{
+    width: 305px;
+}
+.names_container input{
+    width:100% ;
+    border:none;
+    background: none;
+    border-bottom:1px solid #D89C61;
+    height: 27px;
+}
+.Item_name{
+    margin-bottom: 15px;
+    height: 57px;
+}
+.Item_apellido{
+    margin-bottom: 15px;
+}
+.names_buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:30px ;
+}
+.title_cambiar_name{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 31px;
+}
+.title_cambiar_name p{
+    font-size: 18px;
+    margin: 0px;
+    margin-left: 10px;
+    font-weight:600 ;
+    color:#707070 ;
+}
+.Buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.guardar{
+    margin-top: 28px;
+}
+.guardar,.cancelar{
+    height: 41px;
+    width: 274px;
+    background-color:#FF8282 ;
+    color: #F9F9F9;
+    font-size:16px ;
+    font-weight: 600;
+    margin-bottom:12px;
+    border: none;
+    border-radius: 8px;
+}
+.cancelar{
+    background-color: #FBF9F4;
+    color: #FF8282;
+    border: 2px solid #FF8282;
+
+}
+    @media (min-width:1024px){
+        .MainContainer1{
+            height: 100%;
+            padding-top: 0px;
+         
+        }
+        .nav_back{
+            width: 300px;
+            margin: 0px;
+            margin-left: 20%;
+            margin-top: 45px;
+            text-align: center;
+        }
+    }
+    @media (min-width:1200px){
+        .MainContainer1{
+            margin: 0px;
+            padding-top: 0px;
+         
+        }
+        .nav_back{
+            width: 300px;
+            margin: 0px;
+            margin-left: 20%;
+            margin-top: 90px;
+            text-align: center;
+        }
+    }
+@media (min-width: 1920px){
+
+    .MainContainer1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        padding: 0px;
+        
+    }
+    .names_container input{
+        width:390px;
+        border:none;
+        background: none;
+        border-bottom:1px solid #D89C61;
+        height: 27px;
+    }
+    .container_name-correo{
+        height: 100%;
+        display: grid;
+        grid-template-columns: 20% 50%;
+        margin-left:437px ;
+    }
+    .nav_back{
+        width: 500px;
+        margin-top: 22px;
+        margin-left: 515px;
+    }
+    .text_edit p{
+        font-size: 25px;
+        margin: 0px;
+        margin-bottom: 24px;
+    }
+    
+    .image1{
+        height: 153px;
+        width: 153px;
+        margin-top: 20px;
+    }
+    .image1 .img1{
+        height: 100%;
+        width: 100%;
+    }
+    .title_cambiar_name{
+        text-align: center;
+        margin-left: 60px;
+    }
+    
+    .names_buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 0px;
+        width: 391px;
+        margin-left: 30px;
+    }
+    .guardar,.cancelar{
+        height: 52px;
+        width: 350px;
+        background-color:#FF8282 ;
+        color: #F9F9F9;
+        font-size:16px ;
+        font-weight: 600;
+        margin-bottom:12px;
+        border: none;
+        border-radius: 8px;
+    }
+    .cancelar{
+        background-color: #FBF9F4;
+        color: #FF8282;
+        border: 2px solid #FF8282;
+    
+    }
+    .Item_name{
+        margin-bottom: 17px;
+        width: 390px;
+    }
+    .Item_apellido{
+        margin-bottom: 17px;
+        width: 390px;
+    }
+    .Item_correo{
+        width: 390px;
+    }
+    .Buttons{
+        width: 390px;
+        margin-bottom: 210px;
+        align-items: center;
+    }
+
+}
+

@@ -1,0 +1,148 @@
+/* ---------------- FORM ---------------- */
+
+.form_row{
+    display: flex;
+    width: 336px;
+    margin-bottom: 52px
+}
+.contact_form-item{
+    margin-right: 14%;
+    display:flex;
+    flex-direction: column;
+}
+.form_item-title{
+    font-size: 19px;
+    color: #656565;
+    font-weight: 600;
+}
+.Form-Input{
+    max-width: 330px;
+    width: 17.2vw;
+    border: none;
+    border-bottom: 2px solid #C9C9C9;
+    background-color: transparent;
+    outline: none;
+    margin-top: 13px;
+}
+.Form-Input::placeholder{
+    font-size: 12px;
+}
+.message-area{
+    margin-top: 13px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #C9C9C9;
+    outline: none;
+    resize: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 37vw;
+}
+.Form-Input::placeholder, .message-area::placeholder{
+    color: #D5D5D5;
+    font-weight: 600;
+    padding-left: 0;
+}
+.Form-Input:hover, .message-area:hover{
+    border-bottom: 2px solid #E3A63D;
+
+}
+.Form-Input:focus, .message-area:focus{
+    border-bottom: 2px solid #E3A63D;
+}
+
+.LandingContactForm{
+    max-width: 718px;
+    margin-top: 66px;    
+    margin-left: 152px;
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+}
+.form_submit-btn{
+    width: 281px;
+    height: 49px;
+    background-color: #F36F2F;
+    border: 0;
+    border-radius: 8px;
+    font-size: 17px;
+    color: #fefefe;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+@media (max-width: 1366px){
+    .LandingContactForm{
+        margin-left: 82px;
+    }
+}
+@media(max-width: 1024px){
+    .LandingContactForm{
+        margin-left: 0;
+    }
+    .form_row{
+        width: 67vw;
+    }
+    .Form-Input{
+        width: 34vw;
+    }
+    .message-area{
+        width: 77vw;
+    }
+    .form_submit-btn{
+        margin-right: -15vw;
+    }
+}
+@media(max-width: 1024px){
+    .form_submit-btn{
+        margin-right: -17vw;
+    }
+}
+@media(max-width: 575px){
+    .Form-Input {
+        max-width: initial;
+        width: 94vw;
+    }
+    .form_submit-btn {
+        margin-right: -25vw;
+    }
+    .form_row {
+        display: initial;
+        width: auto;
+        margin-bottom: 0;
+    }
+    .contact_form-item{
+        margin-right: 0;
+        margin-bottom: 44px;
+    }
+    .LandingContactForm{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+    }
+    .form_submit-btn{
+        margin-left: 0;
+        margin:auto;
+        margin-top: 29px;
+        margin-bottom: 13px;
+    }
+    .message-area {
+        width: 91vw;
+    }
+    .contact_section-wrapper{
+        align-items: center;
+    }
+    .contact_section-wrapper{
+        max-width: 100vw;
+    }
+    .contact_icon{
+        width: 74px;
+        height: 75px;
+    }
+    .Landing_contact-title, .Landing_contact-name{
+        font-size: 13px;
+    }
+    
+}

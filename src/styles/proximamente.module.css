@@ -1,0 +1,908 @@
+.main_lanzamiento{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: 0px;
+    background-color:#2E2E2E;
+    color: white;
+}
+.hr_1{
+    background-color: white;
+    margin: 0px;
+}
+.descriptions p{
+    margin: 0px;
+}
+.espacio_hr hr{
+    width: 165px;
+    height: 1px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    
+}
+.titulo_lanzamiento{
+    font-size: 19px;
+    color: white;
+    margin-top: 47px;
+    text-align: center;
+    font-weight: 500;
+}
+.product_description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 49px;
+}
+.description_product{
+    height: 120px;
+    margin-left: 20px;
+}
+.name_product p{
+    font-size: 18px;
+    margin: 0;
+}
+.description1 p{
+    margin: 0;
+    font-size:13px ;
+    margin-bottom: 5px;
+}
+.description2 p{
+    margin: 0;
+    font-size:13px ;
+    margin-bottom: 10px;
+}
+.description3 p{
+    margin: 0;
+    font-size:13px ;
+}
+
+.product_image{
+    width: 127px;
+    height: 120px;
+    overflow: hidden;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+.product_image img{
+    width: 100%;
+    height: 100%;
+    
+  
+}
+
+
+.oferta_lanzamiento{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.lanzamiento_container{
+    background-color:#545454 ;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #707070;
+    width: 100%;
+    height: 353px;
+    margin-top: 61px;
+}
+
+
+.oferta_lanzamiento_text {
+    font-size: 17px;
+    font-weight: 600;
+    color: #FCFCFC;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 47px;
+}
+.oferta_lanzamiento_text2{
+    font-size:13px ;
+    font-weight: 600;
+    color: #FCFCFC;
+    text-align: center;
+}
+.espacio_hr2{
+    display: flex;
+    justify-content: center;
+}
+
+.espacio_hr2 hr{
+    width: 308px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-bottom: 28px;
+}
+ 
+.contador_lanzamiento{
+    display: flex; 
+    justify-content: center;
+    margin-left:15px;
+    margin-right: 15px;
+
+}
+.contador_lanzamiento hr{
+    margin: 0px;
+    width: 54px;
+    height: 1px;
+    background-color:#7B7B7B;
+}
+.numbers{
+    text-align: center;
+    font-size: 26px;
+    margin: 0px;
+    font-weight: 600;
+    height:35px;
+    color: #040404;
+    margin-top: 12px;
+}
+
+.text{
+    text-align: center;
+    font-weight: 600;
+    font-size: 9px;
+    color: #040404;
+    margin: 0px;
+    margin:auto;
+    margin-bottom: 12px;
+}
+.dias, .horas, .minutos, .segundos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dias{
+    border-radius: 50%;
+    width: 74px;
+    height: 74px;
+    background-color: white;
+    margin-right:13px ;
+}
+.horas{
+    border-radius: 50%;
+    width: 74px;
+    height: 74px;
+    background-color: white;
+    margin-right:13px ;
+}
+.minutos{
+    border-radius: 50%;
+    width: 74px;
+    height: 74px;
+    background-color: white;
+    margin-right:13px ;
+}
+.segundos{
+    border-radius: 50%;
+    width: 74px;
+    height: 74px;
+    background-color: white;
+    
+}
+.mas_informacion a{
+
+    text-align: center;
+    margin-bottom: 114px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color:#F5F5F5 ;
+
+}
+.mas_informacion .contactanos{
+    font-size: 20px;
+    font-weight: 600;
+    color:#F5F5F5 ;
+}
+
+.decoration1{
+    height: 0px;
+    width: 0px;
+    }
+.decoration2{
+    height: 0px;
+    width: 0px;
+    }
+
+.decoration1_movil{
+    position: absolute;
+    background-color:#EA715B ;
+    width: 48px;
+    height: 48px;
+    border-radius: 0px 0px 0px 50px;
+    top: 0px;
+    right: 0px;
+}
+.decoration2_movil{
+    position: absolute;
+    background-color:#EA715B ;
+    width: 48px;
+    height: 48px;
+    border-radius: 0px 50px 0px 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.mas_informacion{
+    height: 19px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    color:#F5F5F5;
+    margin: 0px;
+    margin-top: -77px;
+    z-index: 2;
+    text-align: center;
+    
+}
+.mas_informacion .contactanos{
+    font-size: 14px;
+    font-weight: 600;
+    color:#F5F5F5 ;
+}
+
+@media (min-width: 480px){
+    .oferta_lanzamiento_text2{
+        text-align: center;
+         margin-left: 0px;
+    }
+
+    .espacio_hr2 .hr_proximamente{
+        margin: 0px;
+        width: 380px;
+        margin-bottom: 30px;
+
+    }
+}
+@media (min-width: 768px){
+    .main_lanzamiento{
+        position: relative;
+    }
+    .proximo_product{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+    }
+    .product_description{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        margin-top: 0px;
+        margin-right: 40px;
+    }
+    .product_image{
+        margin: 0px;
+        width: 147px;
+        height: 140px;
+
+    }
+    .product_image img{
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+
+    }
+    .description_product{
+        margin: 0px;
+        height: 140px;
+        width: 147px;
+        margin-top: 15px;
+    }
+    
+    .name_product p{
+        font-size: 15px;
+        margin: 0;
+    }
+    .description1 p{
+        margin: 0;
+        font-size:13px ;
+        margin-bottom: 5px;
+    }
+    .description2 p{
+        margin: 0;
+        font-size:13px ;
+        margin-bottom: 10px;
+    }
+    .description3 p{
+        margin: 0;
+        font-size:13px ;
+    }
+    .espacio_hr hr{
+        width: 147px;
+        height: 1px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        
+    }
+    .espacio_hr2{
+        height: 2px;
+        margin-bottom: 20px;
+    }
+
+    /*Oferta Lanzamiento*/
+
+    .oferta_lanzamiento{
+        height: 216px;
+        width: 403px;
+        margin: 0px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .lanzamiento_container{
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        border-radius: 50px;
+    }
+    .oferta_lanzamiento_text{
+        margin-top: 0px;
+    }
+    .decoration1_movil{
+        width: 0px;
+        height: 0px;
+        
+    }
+    .decoration2_movil{
+        width: 0px;
+        height: 0px;
+        
+    }
+    .decoration1{
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        background-color:#EA715B ;
+        border-radius: 0px 50px 0px 0px;
+        bottom: 0px;
+        left: 0px;
+    
+    }
+    .decoration2{
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        background-color:#EA715B ;
+        border-radius: 0px 0px 0px 50px;
+        top: 0px;
+        right:0px;
+    
+    }
+
+    .mas_informacion{
+        height: 19px;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 600;
+        color:#F5F5F5;
+        margin: 0px;
+        margin-bottom: 40px;
+        text-align: center;
+        
+    }
+    .mas_informacion .contactanos{
+        font-size: 14px;
+        font-weight: 600;
+        color:#F5F5F5 ;
+    }
+
+}
+@media (min-width: 1024px){
+
+}
+@media (min-width: 1366px){
+
+    .main_lanzamiento{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color:#2E2E2E ;
+        position: relative;
+    }
+    /*------------------------TITULO------------------*/
+    .titulo_lanzamiento{
+        margin-top: 73 px;
+        margin-bottom: 84px;
+        text-align: center;
+        font-size: 34px;
+        color: white;
+        font-weight: 600;
+    }
+    
+    /*----------------------IMAGE PRODUCT--------------------------------*/
+    
+    .proximo_product{
+        display: flex;
+        margin: 0px;
+    
+    }
+    .product_description{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: initial;
+        margin: 0px;
+        margin-left: 100px;
+        margin-right: 40px;
+    }
+    
+    .product_image{
+    border-radius: 15px;
+    height:226px ;
+    width: 212px;
+    overflow: hidden;
+    }
+    
+    .product_image img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    /*-----------------DESCRIPTION PRODUCT-------------*/
+    .description_product{
+        display: flex;
+        flex-direction: column;
+        height: 226px;
+        width: 212px;
+        margin: 0px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .name_product p{
+        color: white;
+        font-size: 19px;
+        font-weight: 600;
+    }
+    .espacio_hr hr{
+        width: 180px;
+        height: 2px;
+        margin-top: 11px;
+        margin-bottom: 11px;
+        background-color: white;
+    }
+    .descriptions {
+        height: 100%;
+        margin-right: 20px;
+    }
+     .description1 p{
+         color: white;
+         font-size: 13px;
+         font-weight: normal;
+         margin-bottom: 14px;
+
+     }
+     .description2 p{
+        color: white;
+        font-size: 13px;
+        font-weight: normal;
+        margin-bottom: 15px;
+    }
+    .description3 p{
+        color: white;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    
+    
+    
+    
+    /*-------------------------OFERTA LANZAMIENTO-------------------- */
+    
+    .oferta_lanzamiento{
+        width: 625px;
+        height: 334px;
+        margin-left: 0px;
+        margin-bottom: 105px;
+    
+    }
+    .lanzamiento_container{
+        margin: 0px;
+        background-color:#545454 ;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #707070;
+        border-radius: 50px;
+        width: 625px;
+        height: 334px;
+        margin-bottom: 104px;
+    }
+    .oferta_lanzamiento_text p{
+        font-size: 31px;
+        font-weight: 600;
+        color: #FCFCFC;
+        margin: 0px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    .oferta_lanzamiento_text2 {
+        font-size:13px ;
+        font-weight: 600;
+        color: #FCFCFC;
+        text-align: center;
+        margin-bottom: 20px;
+        
+    }
+    .oferta_lanzamiento_text2 p{
+        margin: 0px;
+    }
+
+    
+    
+    .espacio_hr2{
+        width: 470px;
+        height: 2px;
+        background-color: #ffffff;
+        margin: 0px;
+        margin-left: 76px;
+        margin-bottom: 29px;
+
+    } 
+    
+    .espacio_hr2 .hr_proximamente{
+        width: 100%;
+        height: 2px;
+        background-color: #ffffff;
+        margin: 0px;
+    }
+    .contador_lanzamiento{
+        display: flex; 
+        justify-content: center;
+    
+    }
+    .contador_lanzamiento hr{
+        width: 64px;
+        margin: 0px;
+    }
+    .numbers{
+        text-align: center;
+        font-size: 31px;
+        margin: 0px;
+        height:41px ;
+        margin-top: 21px;
+        font-weight: 600;
+    }
+    .text{
+        font-size: 10px;
+        text-align: center;
+        margin: 0px;
+        font-weight: 600;
+    }
+    .dias{
+        border-radius: 50%;
+        width: 91px;
+        height: 90px;
+        background-color: white;
+        margin-right:30px ;
+    }
+    .horas{
+        border-radius: 50%;
+        width: 91px;
+        height: 90px;
+        background-color: white;
+        margin-right:30px ;
+    }
+    .minutos{
+        border-radius: 50%;
+        width: 91px;
+        height: 90px;
+        background-color: white;
+        margin-right: 30px;
+    }
+    .segundos{
+        border-radius: 50%;
+        width: 91px;
+        height: 90px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mas_informacion{
+        margin: 0px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+        color:#F5F5F5 ;
+        margin-bottom: 78px;
+    
+    }
+    .mas_informacion .contactanos{
+        font-size: 13px;
+        font-weight: 600;
+        color:#F5F5F5 ;
+    
+    }
+    /*--------------------------------DECORATION TOP-BOTTOM---------------------------*/
+    .decoration1{
+        position: absolute;
+        height: 99px;
+        width: 99px;
+        background-color:#EA715B ;
+        border-radius: 0px 50px 0px 0px;
+        bottom: 0px;
+        left: 0px;
+    
+    }
+    .decoration2{
+        position: absolute;
+        height: 99px;
+        width: 99px;
+        background-color:#EA715B ;
+        border-radius: 0px 0px 0px 50px;
+        top: 0px;
+        right:0px;
+    
+    }
+
+    .decoration1_movil{
+        height: 0px;
+        width: 0px;
+    }
+    .decoration2_movil{
+        height: 0px;
+        width: 0px;
+    }
+
+}
+@media (min-width: 1920px){
+   .main_lanzamiento{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color:#2E2E2E ;
+        position: relative;
+    }
+    /*------------------------TITULO------------------*/
+    .titulo_lanzamiento{
+        margin-top: 103px;
+        margin-left: 621px ;
+        margin-right: 586px;
+        margin-bottom: 116px;
+        text-align: center;
+        font-size: 49px;
+        color: white;
+        font-weight: 600;
+    }
+    
+    /*----------------------IMAGE PRODUCT--------------------------------*/
+    
+    .proximo_product{
+        display: flex;
+    }
+    .product_description{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0px;
+        margin-left: 236px;
+    }
+    
+    .product_image{
+        border-radius: 15px;
+        height:300px ;
+        width: 319px;
+        overflow: hidden;
+    }
+    
+    .product_image img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    /*-----------------DESCRIPTION PRODUCT-------------*/
+    .description_product{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 253px;
+        margin-left: 15px;
+        margin-top: 10px;
+        margin-right: 83px;
+    }
+    .name_product p{
+        color: white;
+        font-size: 29px;
+        font-weight: 600;
+    }
+    .espacio_hr hr{
+        width: 253px;
+        height: 2px;
+        margin-top: 11px;
+        margin-bottom: 11px;
+        background-color: white;
+    }
+    .descriptions {
+        height: 100%;
+        margin-right: 20px;
+    }
+     .description1 p{
+         color: white;
+         font-size: 20px;
+         font-weight: normal;
+         margin-bottom: 14px;
+
+     }
+     .description2 p{
+        color: white;
+        font-size: 20px;
+        font-weight: normal;
+        margin-bottom: 15px;
+    }
+    .description3 p{
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    
+    
+    
+    /*-------------------------OFERTA LANZAMIENTO-------------------- */
+    
+    .oferta_lanzamiento{
+      width: 100%;
+      height: 100%;
+      justify-content: flex-start;
+      margin: 0px;
+      margin-bottom: 147px;
+    
+    }
+    .lanzamiento_container{
+        background-color:#545454 ;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #707070;
+        border-radius: 50px;
+        width: 879px;
+        height: 469px;
+        margin: 0px;
+    }
+    .oferta_lanzamiento_text{
+        font-size: 45px;
+        font-weight: 600;
+        color: #FCFCFC;
+        margin: 0px;
+        margin-top: 67px;
+        text-align: center;
+    }
+    
+    
+    .oferta_lanzamiento_text2{
+        margin: 0px;
+        text-align: center;
+        font-size:19px ;
+        font-weight: 600;
+        color: #FCFCFC;
+        margin-bottom: 40px;
+    
+    }
+    
+    
+    .espacio_hr2{
+        width: 662px;
+        margin-left: 100px;
+    }
+    .espacio_hr2 .hr_proximamente{
+        width: 100%;
+        height: 2px;
+        background-color: #ffffff;
+        margin: 0px;
+    
+    }
+    .contador_lanzamiento{
+        display: flex; 
+        justify-content: center;
+        margin-bottom: 101px;
+    
+    }
+    .contador_lanzamiento hr{
+        width: 91px;
+        margin: 0px;
+
+    }
+    .numbers{
+        text-align: center;
+        font-size: 45px;
+        margin: 0px;
+        height:60px ;
+        margin-top: 21px;
+        font-weight: 600;
+    }
+    .text{
+        text-align: center;
+        margin: 0px;
+        margin-top: 5px;
+        font-weight: 600;
+    }
+    .dias{
+        border-radius: 50%;
+        width: 127px;
+        height: 127px;
+        background-color: white;
+        margin-right:53px ;
+    }
+    .horas{
+        border-radius: 50%;
+        width: 127px;
+        height: 127px;
+        background-color: white;
+        margin-right:53px ;
+    }
+    .minutos{
+        border-radius: 50%;
+        width: 127px;
+        height: 127px;
+        background-color: white;
+        margin-right:53px ;
+    }
+    .segundos{
+        border-radius: 50%;
+        width: 127px;
+        height: 127px;
+        background-color: white;
+        
+    }
+    .mas_informacion{
+    
+        text-align: center;
+        margin-bottom: 114px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        color:#F5F5F5 ;
+        margin: 0px;
+        margin-bottom: 113px;
+    
+    }
+    .mas_informacion .contactanos{
+        font-size: 20px;
+        font-weight: 600;
+        color:#F5F5F5 ;
+    
+    }
+    /*--------------------------------DECORATION TOP-BOTTOM---------------------------*/
+    .decoration1{
+        position: absolute;
+        height: 140px;
+        width: 140px;
+        background-color:#EA715B ;
+        border-radius: 0px 50px 0px 0px;
+        bottom: 0px;
+        left: 0px;
+    
+    }
+    .decoration2{
+        position: absolute;
+        height: 140px;
+        width: 140px;
+        background-color:#EA715B ;
+        border-radius: 0px 0px 0px 50px;
+        top: 0px;
+        right:0px;
+    
+    }
+
+    .decoration1_movil{
+        height: 0px;
+        width: 0px;
+    }
+    .decoration2_movil{
+        height: 0px;
+        width: 0px;
+    }
+
+
+}
+
+
+
+
+
+
+
+

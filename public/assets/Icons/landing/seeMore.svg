@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47">
+  <g id="Grupo_286" data-name="Grupo 286" transform="translate(-932 -801)">
+    <g id="down-arrow_icon-icons.com_64915" transform="translate(938.755 817.248)">
+      <g id="Grupo_4" data-name="Grupo 4" transform="translate(0 0)">
+        <path id="Trazado_6" data-name="Trazado 6" d="M16.053,76.053a3.242,3.242,0,0,1-2.305-.955L.953,62.3a3.26,3.26,0,0,1,4.611-4.61l10.488,10.49,10.489-10.49A3.26,3.26,0,1,1,31.153,62.3L18.359,75.1A3.236,3.236,0,0,1,16.053,76.053ZM3.259,58.186a1.811,1.811,0,0,0-1.282,3.091l12.794,12.8a1.85,1.85,0,0,0,2.539.021L30.127,61.277a1.812,1.812,0,0,0,0-2.562,1.855,1.855,0,0,0-2.561,0L16.053,70.231,4.54,58.716A1.8,1.8,0,0,0,3.259,58.186Z" transform="translate(0 -56.737)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Elipse_59" data-name="Elipse 59" transform="translate(932 801)" fill="none" stroke="#f6f6f6" stroke-width="2">
+      <circle cx="23.5" cy="23.5" r="23.5" stroke="none"/>
+      <circle cx="23.5" cy="23.5" r="22.5" fill="none"/>
+    </g>
+  </g>
+</svg>

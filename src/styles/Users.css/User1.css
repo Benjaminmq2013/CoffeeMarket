@@ -1,0 +1,91 @@
+.Section_User1-container{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    min-height: 200px;
+}
+.Table_users-user1{
+    display: flex;
+    height: 59px;
+    flex-direction: column;
+    margin-left: 8px;
+}
+.Button_edit-users{
+    display: flex;
+    align-items: center;
+}
+.Image_profile-user{
+    height: 59px;
+    width: 63px;
+}
+.Image_profile-user img{
+    height:100%;
+    width: 100%;
+}
+
+.Edit-user1{
+    width: 25px;
+    height: 26px;
+    background-color: #FBF9F4;
+    border: 1px solid;
+}
+.Name_user-1{
+    font-size:15px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.td_rol{
+    color: #4197EE;
+    font-size: 13px;
+    font-weight: 600;
+    padding-right: 10px;
+}
+.td_editar-icon{
+    font-size: 11px;
+    font-weight: 600;
+    color:#38B150 ;
+}
+.td_eliminar-icon{
+    font-size: 11px;
+    font-weight: 600;
+    color:#FF3A3A ;
+}
+.td_address{
+    display: none;
+}
+.td_number-mobile{
+    font-size: 12px;
+    color:#888888;
+}
+.td_number-desktop{
+    display: none;
+}
+
+.icons_table_users {
+    font-size: 11px;
+    color:#989898 ;
+}
+.icons_table_users img{
+    margin-right: 4px;
+}
+.td_editar-icon{
+    padding-right: 10px;
+}
+
+/*---------------------------------RESPONSIVE---------------*/
+@media (min-width: 1920px){
+    .Section_User1-container{
+        display: initial;
+        width: 100%;
+    }
+    .Image_profile-user {
+        display: none;
+    }
+    .Table_users-user1{
+        display: initial;
+    }
+    .users_data-columns{
+        display: flex;
+    }
+}

@@ -1,0 +1,41 @@
+.Hero{
+    width: 1179px;
+    height: 426px;
+    margin: auto;
+    background-image: url(/assets/Images/landing-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 82px;
+    position: relative;
+    border-radius: 8px;
+}
+
+/* RESPONSIVE STYLES */
+
+@media (max-width: 1200px){
+    .Hero{
+        width: 100%;
+        height: 223px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 769px){
+    .Hero{
+        margin-top: 23px;
+        margin-left: 19px;
+        margin-right: 19px;
+        width: calc(100% - 38px);
+        border-radius: 12px;
+    }
+}
+@media (max-width: 500px){
+    .Hero{
+        height: 180px;
+    }
+}
+@media (max-width: 430px){
+    .Hero{
+        height: 140px;
+    }
+}

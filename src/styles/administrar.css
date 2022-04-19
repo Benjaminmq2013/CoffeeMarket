@@ -1,0 +1,147 @@
+.container_items-administrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 83vh;
+}
+.text_administrar-container{
+    margin: 0px;
+    font-size: 18px;
+    color:#FCFCFC ;
+    font-weight: 600;
+}
+.icon_administrar-container{
+    margin-left: 28px;
+    margin-right: 46px;
+}
+.container_usuarios, .container_productos, .container_ordenes, .container_nuevo-lanzamiento, .container_ventas, .container_mensajes{
+    display: flex;
+    width: 327px;
+    height: 74px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 9px;
+    align-items: center;
+}
+.container_usuarios{
+    background-color: #882FFC;
+    
+}
+.container_productos{
+    background-color: #FC752F;
+    
+}
+.container_ordenes{
+    background-color: #6483FF;
+   
+}
+.container_nuevo-lanzamiento{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #218824;
+    
+   
+}
+.container_nuevo-lanzamiento .icon_administrar-container{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    margin: 0px;
+}
+.container_ventas{
+    background-color: #4BB897;
+   
+}
+.container_mensajes{
+    background-color: #FF7070;
+    
+    
+}
+
+@media (min-width: 1366px){
+    .container_items-administrar{
+        display: flex;
+        margin-top: 100px;
+        height: 60vh;
+    }
+    .container_items-usuario-productos{
+        display: flex;
+    }
+    .container-ventas-mensajes{
+        display: flex;
+        width: 936px;
+    }
+    .icon_administrar-container{
+        margin-left: 10px;
+        margin-right: 7px;
+    }
+    .container_usuarios, .container_productos, .container_ordenes, .container_nuevo-lanzamiento, .container_ventas, .container_mensajes{
+        display: flex;
+        width: 214px;
+        height: 76px;
+        border: none;
+        margin-right: 20px;
+        border-radius: 9px;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1920px){
+    .container_items-administrar{
+      height: 68vh;
+    }
+    .text_administrar-container{
+        font-size:27px ;
+    }
+    .icon_administrar-container{
+        margin-left: 14px;
+        margin-right: 10px;
+
+    }
+    .container_usuarios, .container_productos, .container_ordenes, .container_nuevo-lanzamiento, .container_ventas, .container_mensajes{
+        display: flex;
+        width: 300px;
+        height: 106px;
+        border: none;
+        margin-right: 32px;
+        border-radius: 9px;
+        align-items: center;
+    }
+    .container-ventas-mensajes{
+        display: flex;
+        width: 1328px;
+    }
+    .container_usuarios .icon_administrar-container{
+        height: 74px;
+        width: 74px;
+    }
+    .container_productos .icon_administrar-container{
+        height: 66px;
+        width: 66px;
+        
+    }
+    .container_ordenes .icon_administrar-container{
+        height: 64px ;
+        width: 64px;
+       
+    }
+    .container_nuevo-lanzamiento .icon_administrar-container{
+        height: 26px;
+        width: 26px;
+       
+    }
+    .container_ventas .icon_administrar-container{
+        width: 56 px;
+        height: 56px;
+       
+    }
+    .container_mensajes .icon_administrar-container{
+        width: 52px;
+        height: 52px;
+        
+    }
+   
+
+}
+

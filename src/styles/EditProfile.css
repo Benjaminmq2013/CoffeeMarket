@@ -1,0 +1,297 @@
+.EditProfile-main_container{
+    padding: 23px;
+    height: 100%;
+}
+.EditProfile-container{
+    background-color: #FBF9F4;
+}
+.backToHome{
+    display: flex;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 17px;
+}
+.backToHome a{
+    color: #F29E3E;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.backToHome img{
+    height: 100%;
+    margin-right: 15px;
+}
+
+/*------------------------ EDIT PROFILE----------*/
+.edit p{
+    text-align: center;
+    margin-bottom: 17px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #878787;
+}
+.edit_profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 23px;
+
+}
+.image{
+    position: relative;
+    height: 123px;
+    width: 123px;
+}
+.icon_edit a{
+    position: absolute;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    bottom: 10px;
+    right: 5px;
+}
+.icon_edit img{
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+}
+/*----------------INFORMATION---------------------*/
+.items_information{
+    display: flex;
+    flex-direction: column;
+}
+.label1, .label2, .label3, .label4{
+    font-size:20px;
+    font-weight: 600;
+    color: #707070;
+    text-align: start;
+}
+.item_name{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.item_tel{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.item_address{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.new_address_container{
+    display: flex;
+    align-items: center;
+    margin-bottom:24px ;
+}
+
+.new_address{
+    text-decoration: none;
+    color: #4782AF;
+    font-size:13px ;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.item_email{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*------------------------INPUTS----------------------*/
+.items_information input{
+    width: 100%;
+    border:none;
+    background: none;
+    border-bottom:1px solid #D89C61;
+    height: 27px;
+
+} 
+.item_email input{
+    width: 100%;
+    border:none;
+    background: none;
+    border-bottom:1px solid #D89C61;
+    height: 27px;
+}
+.item_name-input{
+    display: flex;
+    position: relative;
+}
+.item_name-input img{
+    position: absolute;
+    right: 0px;
+    top: 8px;
+}
+.item_name-input a{
+    position: absolute;
+    right: 20px;
+    top:5px;
+    font-size: 11px;
+    font-weight: normal;
+    color:#707070 ;
+    text-decoration: none;
+}
+
+
+input::placeholder{
+    color: #707070;
+    font-size: 15px;
+    font-weight:normal;
+    padding-left: 0px;
+}
+
+/*-----------------------BUTTON--------------------*/
+.button_aceptar{
+    display: flex;
+    justify-content: center;
+}
+.aceptar{
+    height: 41px;
+    width: 274px;
+    background-color: #FF8282;
+    color: white;
+    font-size: 16px;
+    border-radius:10px;
+    border: none;
+}
+
+/*-----------------RESPONSIVE------------------*/
+
+@media (min-width: 1024px){
+    .EditProfile-main_container{
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+    .EditProfile-edit_profile_container{
+        width: 80vh;
+        height: 100%;
+        margin-bottom: 100px;
+    }
+    .backToHome{
+        margin-top: 20px;
+    }
+}
+@media (min-width: 1024px){
+    .EditProfile-main_container{
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        margin-top: 80px;
+    }
+    .EditProfile-edit_profile_container{
+        width: 80vh;
+        height: 100%;
+        margin-bottom: 100px;
+    }
+    .backToHome{
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1920px){
+    .EditProfile-main_container{
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+    }
+    .backToHome{
+        margin-top: 80px;
+    }
+    .EditProfile-edit_profile_container{
+        margin: 0px;
+        height: 100%;
+
+    }
+    .EditProfile-container{
+        display: grid;
+        height: 100%;
+        grid-template-columns: 20% 80%;
+        margin-bottom: 164px;
+    }
+    .edit_information_container{
+        width: 392px;
+        margin-left: 72px;
+    }
+    .edit p{
+        margin: 0px;
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 66px;
+    }
+    .label1, .label2, .label3, .label4{
+        font-size:24px;
+        font-weight: 600;
+        color: #707070;
+        text-align: start;
+    }
+    .edit_profile{
+        display: flex;
+    }
+    .image{
+        height: 156px;
+        width: 156px;
+    }
+    .image img{
+        height: 100%;
+        width: 100%;
+    }
+    .icon_edit img{
+        height: 20px;
+        width: 29px;
+
+    }
+    
+    /*-------INPUTS--------*/
+    .items_information input{
+        width: 100%;
+        border:none;
+        background: none;
+        border-bottom:1px solid #D89C61;
+        height: 27px;
+    
+    } 
+    .item_name-input input{
+        width: 100%;
+    }
+    
+    .item_email input{
+        width: 100%;
+        border:none;
+        background: none;
+        border-bottom:1px solid #D89C61;
+        height: 27px;
+    }
+    .item_name, .item_tel{
+        margin: 0px;
+        margin-bottom:29px ;
+    }
+    .item_email{
+        margin:0px;
+        margin-bottom: 49px;
+    }
+   
+    
+    input::placeholder{
+        color: #707070;
+        font-size: 18px;
+        font-weight:normal;
+        padding-left: 0px;
+    } 
+    
+    /*------BUTTON-----*/
+
+    .button_aceptar{
+        margin: 0px;
+    }
+    .aceptar{
+        width: 327px;
+        height: 49px;
+    }
+    
+} 

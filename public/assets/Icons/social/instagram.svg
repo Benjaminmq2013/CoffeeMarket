@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86" height="86" viewBox="0 0 86 86">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_296" data-name="Rectángulo 296" width="86" height="86" rx="43" transform="translate(509.1 6347.1)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.075" cy="1.008" fx="0.019450834020972252" fy="0.979658305644989" r="1.558" gradientTransform="matrix(0.912, -0.411, 0.333, 0.738, -0.329, 0.295)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9ed32"/>
+      <stop offset="0.255" stop-color="#f59f4f"/>
+      <stop offset="0.654" stop-color="#ee2a7b"/>
+      <stop offset="0.685" stop-color="#e32a81"/>
+      <stop offset="0.739" stop-color="#c72a91"/>
+      <stop offset="0.811" stop-color="#982aab"/>
+      <stop offset="0.896" stop-color="#582ace"/>
+      <stop offset="0.992" stop-color="#072afb"/>
+      <stop offset="1" stop-color="#002aff"/>
+    </radialGradient>
+  </defs>
+  <g id="Grupo_472" data-name="Grupo 472" transform="translate(-597 -6349)">
+    <g id="Enmascarar_grupo_81" data-name="Enmascarar grupo 81" transform="translate(87.9 1.9)" clip-path="url(#clip-path)">
+      <g id="ig" transform="translate(509.343 6347.343)">
+        <path id="Trazado_126" data-name="Trazado 126" d="M70.412,87.515H19.1A17.153,17.153,0,0,1,2,70.412V19.1A17.153,17.153,0,0,1,19.1,2H70.412a17.153,17.153,0,0,1,17.1,17.1V70.412A17.153,17.153,0,0,1,70.412,87.515Z" transform="translate(-2 -2)" fill="url(#radial-gradient)"/>
+        <g id="Grupo_467" data-name="Grupo 467" transform="translate(20.056 20.056)">
+          <path id="Trazado_127" data-name="Trazado 127" d="M42.349,56.4h-17.3A14.025,14.025,0,0,1,11,42.349v-17.3A14.025,14.025,0,0,1,25.053,11h17.3A14.025,14.025,0,0,1,56.4,25.053v17.3A14.025,14.025,0,0,1,42.349,56.4Zm-17.3-43.24A11.857,11.857,0,0,0,13.162,25.053v17.3A11.857,11.857,0,0,0,25.053,54.24h17.3A11.857,11.857,0,0,0,54.24,42.349v-17.3A11.857,11.857,0,0,0,42.349,13.162Z" transform="translate(-11 -11)" fill="#fff"/>
+        </g>
+        <g id="Grupo_468" data-name="Grupo 468" transform="translate(30.866 30.866)">
+          <path id="Trazado_128" data-name="Trazado 128" d="M32.891,44.782A11.891,11.891,0,1,1,44.782,32.891,11.857,11.857,0,0,1,32.891,44.782Zm0-21.62a9.729,9.729,0,1,0,9.729,9.729A9.689,9.689,0,0,0,32.891,23.162Z" transform="translate(-21 -21)" fill="#fff"/>
+        </g>
+        <g id="Grupo_469" data-name="Grupo 469" transform="translate(52.486 26.542)">
+          <path id="Trazado_129" data-name="Trazado 129" d="M44.243,23.486a3.243,3.243,0,1,1,3.243-3.243A3.185,3.185,0,0,1,44.243,23.486Zm0-4.324a1.081,1.081,0,1,0,1.081,1.081A1.021,1.021,0,0,0,44.243,19.162Z" transform="translate(-41 -17)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

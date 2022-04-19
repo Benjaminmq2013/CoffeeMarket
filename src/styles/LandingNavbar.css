@@ -1,0 +1,287 @@
+
+.LandingNavbarButton{
+    color: #fefefe;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 32px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 90%;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    position: relative;
+}
+.LandingNavbarButton:hover{
+    border-bottom: 2px solid #fefefe;
+}
+.LandingNavbarButton:focus{
+    border-bottom: 2px solid #fefefe;
+}
+.nav_cart-button{
+    margin-left: 40px;
+}
+.cartNotification{
+    background-color: rgb(30, 197, 21);
+    border-radius: 100px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+.LandingNavbarLogo{
+    height: 38px;
+    width: 83px;
+}
+.nav-landing-home{
+    height: 15px;
+    width: 20px;
+}
+.nav-landing-store{
+    height: 17px;
+    width: 17px;
+}
+.nav-landing-star{
+    height: 22px;
+    width: 23px;
+}
+.nav-landing-cart{
+    height: 24px;
+    width: 27px;
+}
+.nav-landing-phone{
+    height: 17px;
+    width: 17px;
+}
+.nav_landing-logo{
+    display: none;
+}
+.landing-navbar-icon{
+    margin-right: 14px;
+}
+.LandingHeroBackground{
+    width: 100%;
+}
+.LandingHero{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.landing_hero_opacity{
+    position: relative;
+    width:100vw;
+    height: 832px;
+    z-index: 2;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+}
+.landing_hero_opacity:before{
+    content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.287);
+}
+
+
+
+
+.aboutUs{
+    position: absolute;
+    top: 500px;
+    left: calc(50vw - 297px);
+    width: 595px;
+    margin-top: 38px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.landing_buttons{
+    display: flex;
+}
+.landing-catalogo {
+    padding: 11px 28px;
+    color: #fefefe;
+    font-size: 19px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 165px;
+    text-align:center;
+    margin: 0 19px;
+}
+.landing-catalogo{
+    background-color: #F36F2F
+}
+.landing-catalogo:hover{
+    background-color: #E86221
+}
+
+
+.LandingHeroContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.See_more_icon{
+    margin-top: -300px;
+    z-index: 3;
+    display:none;
+}
+.video_hero{
+    height: auto;
+    width: 100vw;
+    z-index: 1;
+}
+.video_hero-{
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.281);
+    z-index: 2;
+}
+
+@media(max-width: 1779px){
+    .See_more_icon {
+        margin-top: -239px;
+    }
+}
+@media(max-width: 1500px){
+    .See_more_icon {
+        margin-top: -186px;
+    }
+}
+@media (max-width: 1600px){
+    .aboutUs{
+        margin-top: 0;
+        top: 283px;
+    }
+}
+
+@media(max-width: 1366px){
+    .landing_hero_opacity{
+        height: 633px;
+    }
+    .aboutUs {
+        top: 347px;
+    }
+    .See_more_icon{
+        margin-top: -239px;
+    }
+}
+@media(max-width: 1225px){
+    .See_more_icon {
+        margin-top: -131px;
+    }
+    .landing_navbar{
+        height: 67px;
+    }
+    .landing_navbar-wrapper{
+        align-items: center;
+    }
+    .LandingNavbarButton{
+        display: none;
+    }
+    .nav_landing-logo{
+        width: 83px;
+        height: 38px;
+        display: initial;
+    }
+    .landing_hero_opacity{
+        height: 556px;
+    }
+}
+    @media(max-width: 990px){
+        .aboutUs {
+            top: 271px;
+        }
+    }
+    @media(max-width: 770px){
+        .landing_hero_opacity {
+            height: 460px;
+        } 
+        .aboutUs{
+            top: 216px;
+        }
+        
+    }
+   @media (max-width: 700px){
+        .aboutUs {
+            left:0;
+        }        
+        .landing_buttons{
+            flex-direction: column;
+        }
+        .landing-catalogo {
+            padding: 6px 106px;
+            margin-bottom: 16px;
+            font-size: 15px;
+        }
+        .See_more_icon{
+            display: none;
+        }
+   }
+    @media(max-width: 550px){
+        
+        
+        .aboutUs {
+            width: 100vw;
+            position: absolute;
+        }
+        .video_hero{
+            width:initial;
+            width: 167vw;
+        }
+        .LandingHeroContainer{
+            overflow: hidden;
+        }
+        .LandingHero {
+            position: relative;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+        }
+    }
+    @media(max-width: 435px){
+        
+        .aboutUs{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 24px;
+        }
+        .landing_buttons{
+            width: 100%;            
+        }
+        
+        .landing-catalogo {
+            padding: 6px 16%;
+            margin-left: 0;
+            margin-right: 0;
+            margin: auto;
+            margin-bottom: 16px;
+        }
+        .video_hero{
+            width: 185vw;
+        }
+    }
+    @media(max-width: 390px){
+        .video_hero {
+            width: 203vw;
+        }
+    }

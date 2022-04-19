@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <filter id="Elipse_3" x="0" y="0" width="32" height="32" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_4" data-name="Grupo 4" transform="translate(-279 -618)">
+    <g transform="matrix(1, 0, 0, 1, 279, 618)" filter="url(#Elipse_3)">
+      <circle id="Elipse_3-2" data-name="Elipse 3" cx="7" cy="7" r="7" transform="translate(9 9)" fill="#80e0ef"/>
+    </g>
+    <text id="_3" data-name="3" transform="translate(292 638)" fill="#fff" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">3</tspan></text>
+  </g>
+</svg>

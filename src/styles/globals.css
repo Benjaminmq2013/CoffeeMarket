@@ -1,0 +1,24 @@
+:root{
+    --price-color: #E89C2A;
+    --back-to-home: #F29E3E;
+    --add-to-cart-color: #7AD546;
+    --product-name-color: #333333;
+    --cart-number-of-products: #80E0EF;
+    --watch-more-button: #4F8BF3;
+    --login-button: #FF8282;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FBF9F4;
+    position: relative;
+}
+figure{
+    margin: 0;
+}
+input{
+    outline: none;
+}

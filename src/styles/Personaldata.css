@@ -1,0 +1,152 @@
+.personal_data-container{
+    background-color:#F9F9F9 ;
+    border: 1px solid #DBDBDB;
+    border-radius: 10px;
+}
+.informacion_personal-icon-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.informacion_personal-icon-text img{
+    height: 22px;
+    width: 20px;
+}
+.text_informacion_personal-p{
+    font-size:13px ;
+    color:#707070 ;
+    font-weight: 600;
+}
+.inputs_informacion_personal-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input_informacion-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+}
+
+.input_informacion-personal{
+    width: 340px;
+    height: 31px;
+    border-radius: 6px;
+    border: 1px solid #C8C8C8;
+}
+.label_informacion-personal{
+    font-size: 17px;
+    color:#707070 ;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.input_informacion-personal{
+    width: 340px;
+    height: 31px;
+    border-radius: 6px;
+    border: 1px solid #C8C8C8;
+}
+
+.informacion_personal_button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description_informacion-p{
+    width: 240px;
+    margin: 0px;
+    font-size: 11px;
+    color:#A4A4A4 ;
+    text-align: center;
+    margin-bottom: 21px;
+    font-weight: 600;
+}
+
+.informacion_personal_button-continuar{
+   width: 235px;
+   height: 36px;
+   background-color: #FB985D;
+   color:#FFFFFF ;
+   font-size: 13px;
+   border-radius: 8px;
+   border: none;
+}
+.necesitas_ayuda_llamenos-p{
+    font-size: 12px;
+    color: #787878;
+    font-weight: 600;
+}
+.contacto_llamenos-a{
+    color: #326FE8;
+}
+
+@media (min-width: 1366px){
+    .informacion_personal-icon-text{
+        margin-top: 44px;
+        margin-bottom: 40px;
+    }
+    .personal_data-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        background-color:initial;
+        border: initial;
+    }
+    .items_container-informacion{
+        width: 60%;
+        height: 100%;
+        background-color: #FFFFFF;
+        border: 3px solid #DBDBDB;
+        border-radius: 10px;
+        margin-top: 50px;
+        
+    }
+    .input_informacion-personal{
+        width: 367px;
+        height: 25px;
+    }
+    .description_informacion-p{
+        font-size: 11px;
+
+    }
+    .informacion_personal_button-container{
+        margin-bottom: 96px;
+    }
+}
+
+@media (min-width: 1920px){
+    .informacion_personal-icon-text{
+        margin-top: 55px;
+        margin-bottom: 45px;
+    }
+    .text_informacion_personal-p{
+        font-size:19px ;
+    }
+    .informacion_personal-icon-text img{
+        height: 28px;
+        width: 24px;
+    }
+    
+    .input_informacion-personal{
+        width: 511px;
+        height: 34px;
+    }
+    .description_informacion-p{
+        font-size: 13px;
+    }
+    .label_informacion-personal{
+        font-size: 25px;
+    }
+    .informacion_personal_button-container{
+        margin-bottom: 135px;
+    }
+    .informacion_personal_button-continuar{
+        width: 298px;
+        height: 45px;
+        font-size: 19px;
+     }
+}

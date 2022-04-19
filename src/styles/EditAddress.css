@@ -1,0 +1,115 @@
+.edit_address_container{
+    padding: 25px;
+    margin: 0px;
+    height: 100%;
+}
+.edit_address-nav_volver{
+    height: 20px;
+    display: flex;
+    margin-left: 10px;
+}
+.edit_address-nav_volver a{
+    text-decoration: none;
+    color:#F29E3E;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.edit_address-profile_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edit_address-profile_name img{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+.edit_address-profile_name .Name{
+    font-size: 16px;
+    color: #878787;
+    font-weight: 600;
+}
+.editar_mi_direccion{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.editar_mi_direccion .editar_address_text{
+    font-size: 18px;
+    font-weight: 600;
+    color: #707070;
+    margin-left: 15px;
+}
+
+/*-----------------------INPUTS ADDRESS---------------*/
+.items_address_data_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+ .item_address_data, .item_address_data2, .item_codigo_data, .item_ciudad_data, .item_departamento_data{
+     display: flex;
+     flex-direction: column;
+ }
+ .label_address{
+     font-size: 20px;
+     font-weight: 600;
+     color:#707070 ;
+ }
+ .input_address{
+    width: 305px;
+    border:none;
+    background: none;
+    border-bottom:1px solid #D89C61;
+    height: 27px;
+    margin-bottom: 11px;
+ }
+
+
+ /*-------------------BUTTONS-----------------*/
+ .address_profile_buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 23px;
+ }
+ .address_button-guardar{
+    height: 41px;
+    width: 274px;
+    background-color: #FF8282;
+    color: white;
+    font-size: 16px;
+    border-radius:10px;
+    border: none;
+    margin-bottom: 12px;
+ }
+ .address_button-cancelar{
+    height: 41px;
+    width: 274px;
+    background-color: #FBF9F4;
+    color: #FF8282;
+    font-size: 16px;
+    border-radius:10px;
+    border: 2px solid #FF8282 ;
+    margin-bottom: 12px;
+
+ }
+
+
+ @media (min-width: 800px){
+     
+
+ }
+ @media (min-width: 1024px){
+     .edit_address-profile_name img{
+         height: 80px;
+         width: 80px;
+         border-radius: 5px;
+
+
+     }
+
+}

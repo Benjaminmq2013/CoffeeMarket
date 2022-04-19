@@ -1,0 +1,215 @@
+.LoginForm{
+    margin-top: 67px;
+    height: 100%;
+}
+::placeholder {
+    color: #A7A7A7;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.main{
+    height: 100%;
+    margin-top: 68px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_login_container{
+    height: 100%;
+}
+
+.login_container{
+    height: 546px;
+    width:315px ;
+    background-color: #e1d9d16e;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid transparent;
+}
+.login_container .bienvenidos{
+    color:#474747 ;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.login_container .mensaje{
+    width: 190px;
+    text-align: center;
+    font-weight: normal;
+    color: #717171;
+}
+.login_container img{
+    height:33px ;
+    width: 38px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.login_container .login_inputs{
+    display: flex;
+    flex-direction: column;
+    height: 41px;
+    width: 274px;
+
+}
+.login_container .login_inputs input{
+    border-radius: 8px;
+    border:1px solid transparent;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    font-size: 13px;
+    font-weight: normal;
+    padding-left: 15px;
+
+}
+.login_container .login_inputs a{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 11px;
+    font-weight: 600;
+    color: #4F86CF;
+    margin-top: 0;
+    margin-bottom: 25px;
+   
+
+}
+
+
+.login_sign_in{
+    display: flex;
+    justify-content: center;
+}
+
+.login_sign_in button{
+    color: #FBFBFB;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #FF8282;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    width: 274px;
+    height: 41px;
+    margin-bottom: 20px;
+}
+.login_iniciar_sesion {
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    margin-top: 55px;
+}
+.login_iniciar_sesion button{
+    height: 48px;
+    width: 248px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #9C9C9C;
+    
+}
+.login_iniciar_sesion .button_registrar{
+    background-color: #e1d9d12d;
+    border: 2px solid white;
+    color: #9C9C9C;
+
+}
+
+
+
+
+/* ---------RESPONSIVE--------- */
+
+@media (min-width: 1200px){
+
+.main .main_login_container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    
+    
+}
+}
+@media (min-width: 1366px){
+
+    .main .main_login_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+@media (min-width: 1920px){
+
+    .main{
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-bottom: 112px;
+
+    }
+    .main_login_container{
+       height: 652px;
+       width: 372px;
+    }
+    .login_container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+    }
+    .login_container .login_inputs{
+     width: 329px;
+     height: 50px;
+     
+    }
+    .login_container img {
+        height: 46px;
+        width: 40px;
+    }
+ 
+    .login_container .login_inputs input{
+     padding-top: 15px;
+     padding-bottom: 15px;
+     margin: initial;
+     margin-left: 3px;
+     margin-right: 3px;
+     margin-top: 16px;
+     margin-bottom: 10px;
+     outline: none;
+    }
+    .login_inputs a {
+     margin-right: 32px;
+     margin-bottom: 33px;
+    }
+    .login_sign_in{
+     height: 50px;
+     margin-bottom: 116px;
+    }
+    .login_sign_in button {
+        height: 50px;
+        width: 329px;
+
+    }
+    .login_iniciar_sesion {
+        margin: initial;
+    
+    }
+    .login_iniciar_sesion button{
+        height: 58px;
+        width: 141px;
+        padding: initial;
+    }
+    
+
+}
