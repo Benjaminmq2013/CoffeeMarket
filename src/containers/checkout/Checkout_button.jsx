@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { xmlParser } from '../../helpers/xml-Parser'
 const axios = require("axios")
 
 const Checkout_button = () => {
@@ -8,8 +9,9 @@ const Checkout_button = () => {
 
     axios.get('/payment/payout')
     .then(function (response) {
-      console.log(response.data)
-     setPaymentResponse(response.data)
+      //setPaymentResponse(response.data)
+      console.log(xmlParser(response.data))
+
     })
     .catch(function (error) {
       console.log(error);

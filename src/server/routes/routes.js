@@ -1,13 +1,7 @@
 const express = require("express")
 const router = express.Router();
 const axios = require("axios")
-const config = {
-    params:{
-        uid: "8c41704c487945ebd75d10cfed199d4b",
-        wsk: "3ee3b69185e7936122aaa5355ed8cf85",
-        format_return: "json",
-    }
-}
+const xmlParser = require("../helpers/xml-parser")
 
 let xmls ='<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:wspg">\
   <soapenv:Header/>\
@@ -27,14 +21,13 @@ router.get("/payout", (req, res) =>{
       headers: { "Content-Type": "text/xml" },
     })
     .then(function (response) {
-      
-      console.log(response);
+      res.send(response.data)
     })
     .catch(function (error) {    
       console.log(error);
     })
 
-    // res.send("Pago aceptado!")
+    // res.send("Conexión exitosa!")
 })
 
 module.exports = router;
