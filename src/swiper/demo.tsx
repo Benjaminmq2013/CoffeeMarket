@@ -74,7 +74,7 @@ const Product_swiper = ( {zone} ) => {
         centeredSlides={false}
         spaceBetween={0}
         pagination={{
-          type: "none",
+          
         }}
         navigation={true}
         virtual

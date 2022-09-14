@@ -28,7 +28,7 @@ const LandingContactForm = () => {
         </div>
         
         <span className="form_item-title">Mensaje:</span> 
-        <textarea className="message-area" name="ContactCommentt" rows="1" placeholder="Escribe tu mensaje" cols="" ></textarea> <br />
+        <textarea className="message-area" name="ContactCommentt" rows={1} placeholder="Escribe tu mensaje"  ></textarea> <br />
         <input className="form_submit-btn" type="submit" value="Enviar Mensaje" />
         
       </form>

@@ -1,5 +1,6 @@
+import { productListProps } from "../interfaces/productListProps"
 
-const productList = [
+const productList:productListProps[] = [
     {
         product_id: "CFM0001",
         product_title: "Café Cojute 400gr",

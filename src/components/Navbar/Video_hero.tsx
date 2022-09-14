@@ -8,9 +8,8 @@ const Video_hero = () => {
         className="video_hero"
         preload="auto"
         autoPlay={true}
-        playsInline=""
-        muted={true}
-        volume="0"
+        playsInline={ true }
+        muted={ true }
         loop
       >
         <source

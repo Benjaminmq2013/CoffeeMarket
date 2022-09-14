@@ -19,7 +19,7 @@ const LandingContactItem = () => {
         <a className="LandingContactItem" href="https://www.facebook.com/CoffeeMarket503/">
             <img className="contact_icon" src="assets/Icons/social/facebook.svg" alt="" />
             <h5 className="Landing_contact-title">Facebook</h5>
-            <span className="Landing_contact-name" href="#">/coffeemarket503/</span>
+            <span className="Landing_contact-name">/coffeemarket503/</span>
         </a>
 
         <div className="LandingContactItem">
