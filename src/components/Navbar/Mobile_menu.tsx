@@ -12,7 +12,7 @@ const Mobile_menu = () => {
           <section className='container'>
 
             <div className='image_menu'>
-              <img src="assets/Images/Logo.png" alt=""/>
+              <img src="assets/Images/logo.png" alt=""/>
             </div>
 
             <div className='items_menu'>
