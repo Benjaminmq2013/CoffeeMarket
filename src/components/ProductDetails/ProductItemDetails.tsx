@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { productList } from "../../db/productList"
-import { AppContext } from '../../context/productsContext'
+import { AppContext } from '../../context/checkout/productsContext'
 
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 
 
 const ProductItemDetails = () => {
-    const [ products , setProducts ] = useContext(AppContext)
+    const { products , setProducts } = useContext(AppContext)
     const defaultProduct = productList[0]
   return (
     <>

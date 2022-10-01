@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { productList } from "../db/productList"
 
-import { AppContext } from '../context/productsContext'
+import { AppContext } from '../context/checkout/productsContext'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -9,7 +9,7 @@ import { Navigation } from "swiper";
 
 
 const ProductDetailSwiper = () => {
-    const [ products , setProducts ] = useContext(AppContext)
+    const { products , setProducts } = useContext(AppContext)
     const defaultProduct = productList[0]
   return (
     <Swiper navigation={true} modules={[Navigation]} className="mySwiper">

@@ -1,25 +1,27 @@
 import React, { useContext } from 'react'
-import CartContext from "../../context/CartContext"
-import { useProductQuantity } from "../../Hooks/useProductQuantity"
+import CartContext from "../../context/cart/CartContext"
+import { productListProps } from '../../interfaces/productListProps'
 
-const AddToCartButton = (product) => {
-  const { addToCart, cartItems } = useContext(CartContext)
-  const { increment } = useProductQuantity();
+interface params{
+  product:productListProps
+}
+
+const AddToCartButton = (params:params) => {
+  const { state, dispatch } = useContext(CartContext)
 
   function addMoreProduct(){
-    if((cartItems).find(product => product.product.product_id === product.product.product_id)){
-      increment()
-      console.log('adding more product')
-    }
-    
+    if((state).find(product => product.product_id === params.product.product_id)){
+      dispatch({ payload: { id: params.product.product_id }, type: 'MORE_PRODUCT' })
+    } else{
+      dispatch({ payload: params.product, type: "ADD_TO_CART" })
+    }   
   }
   
 
   return (
     <button 
       className="AddToCartButton"
-      onClick={()=> {
-        addToCart(product)
+      onClick={()=> {        
         addMoreProduct()
       }}
     >

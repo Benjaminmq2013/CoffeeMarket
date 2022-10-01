@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
-import { AppContext } from "../../context/productsContext";
+import { AppContext } from "../../context/checkout/productsContext";
 
 import AddToCartButton from "../Products/AddToCartButton";
 
 const Recomendations = ({ product }) => {
-  const [ products , setProducts ] = useContext(AppContext)
+  const { products , setProducts } = useContext(AppContext)
   return (
     <>
       <div className="ProductItem productItemRecomendation">

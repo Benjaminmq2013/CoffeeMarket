@@ -1,12 +1,12 @@
 import React, { useContext } from 'react'
-import { AppContext } from '../context/productsContext'
+import { AppContext } from '../context/checkout/productsContext'
 import Modal from "react-modal"
 import CheckoutCart from "../components/ProductCart/CheckoutCart"
 import CartContainer from "../components/ProductCart/CartContainer"
 
 
 const ShoppingCart = () => {
-    const [ cartIsOpened , setCartIsOpened ] = useContext(AppContext)
+    const { cartIsOpened , setCartIsOpened } = useContext(AppContext)
    
     
     let customStyles = {

@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
-import CartContext from "../../context/CartContext"
+import CartContext from "../../context/cart/CartContext"
 
 const Checkout_summary = () => {
-    const { cartItems } = useContext(CartContext)
+    const { state, dispatch } = useContext(CartContext)
   return (
     <div>
         <p className='pago-p'>Pago</p>
@@ -16,8 +16,8 @@ const Checkout_summary = () => {
 
             <div className='summary_products'>
                 <div className='summary_products-list'>
-                    {cartItems.map((item) =>(
-                        <p key={item.product.product_id}>{ item.product.product_title }</p>
+                    {state.map( product =>(
+                        <p key={ product.product_id}>{ product.product_title }</p>
                     ))}
                     <p className='product_envio-p'>Envío</p>                      
 
@@ -25,8 +25,8 @@ const Checkout_summary = () => {
 
                 <div className='summary_products-price'>
                     
-                    {cartItems.map((item) =>(
-                        <p key={item.product.product_id}>${ item.product.product_offer_price.toFixed(2) }</p>
+                    {state.map(product =>(
+                        <p key={ product.product_id }>${ product.product_offer_price.toFixed(2) }</p>
                     ))}
                     <p className='product_total-price'>$10.77</p>
                 </div>
@@ -37,7 +37,9 @@ const Checkout_summary = () => {
 
             <div className='summary_total-products'>
                 <p>Total:</p>
-                <p className='summary_total-number'>$17.58</p>
+                <p className='summary_total-number'>${state.reduce(
+                    (previousValue, currentValue)=> previousValue + (currentValue.product_offer_price * currentValue.cart_product_quantity ) , 0
+                ).toFixed(2)} USD</p>
 
             </div>
         </div>

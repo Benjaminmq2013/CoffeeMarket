@@ -1,12 +1,12 @@
 import React from "react";
 import AddToCartButton from "./AddToCartButton";
 import { useContext } from "react"
-import { AppContext } from "../../context/productsContext";
+import { AppContext } from "../../context/checkout/productsContext";
 import Link from "next/link";
 import ReactTooltip from "react-tooltip";
 
 const ProductItem = ({ product }) => {
-  const [ products , setProducts ] = useContext(AppContext)
+  const { products , setProducts } = useContext(AppContext)
   return (
     <>
         <div 

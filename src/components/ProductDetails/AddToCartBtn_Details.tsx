@@ -1,14 +1,18 @@
 import React, { useContext } from 'react'
-import CartContext from "../../context/CartContext"
+import CartContext from "../../context/cart/CartContext"
+import { shoppingCartProps } from '../../interfaces/shoppingCartProps';
 
-const AddToCartBtn_Details = (product) => {
-  const { addToCart } = useContext(CartContext)
+interface params {
+  product: shoppingCartProps
+}
 
+const AddToCartBtn_Details = (params:params) => {
   
+  const { state, dispatch } = useContext(CartContext)
 
   return (
     <button 
-      onClick={()=> addToCart(product)}
+      onClick={()=> dispatch({ payload: params.product, type: 'ADD_TO_CART' }) }
     >
         
         Añadir al carrito

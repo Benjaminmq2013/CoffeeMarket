@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { productList } from "../../db/productList"
-import { AppContext } from '../../context/productsContext'
+import { AppContext } from '../../context/checkout/productsContext'
 import Link from 'next/link'
 import AddToCartBtn_Details from './AddToCartBtn_Details'
 import ProductDetailSwiper from '../../swiper/ProductDetailSwiper'
@@ -8,7 +8,7 @@ import ProductDetailSwiper from '../../swiper/ProductDetailSwiper'
 
 
 const ProductItem = () => {
-    const [ products , setProducts ] = useContext(AppContext)
+    const { products , setProducts } = useContext(AppContext)
     const defaultProduct = productList[0]
     
   return (

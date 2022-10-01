@@ -1,32 +1,28 @@
 import React, { useContext } from 'react'
 import CartAddedItem from './CartAddedItem';
 import Cart from "../../containers/Cart"
-import CartContext from "../../context/CartContext"
+import CartContext from "../../context/cart/CartContext"
 import Link from 'next/link';
 
 
 
 const CartContainer = () => {
-  const { cartItems } = useContext(CartContext)
-  if(cartItems.length == 0){
+  const { state, dispatch } = useContext(CartContext)
+  if(state.length == 0){
     return (
       <Cart />
     );
 
   } else{
-    
-    const noRepeatProducts = ({ product }, index) =>{
-      return (<CartAddedItem product={product} key={product.product_id}/>)
-    }
 
     return(
       <div className="Main_container">
             <section className="Main_container">
               
               {
-                cartItems.map((product, index) =>(
+                state.map((product, index) =>(
                   
-                  noRepeatProducts(product, index)
+                  <CartAddedItem product={product} key={product.product_id}/>
                   
                 ))
               }
@@ -41,7 +37,11 @@ const CartContainer = () => {
                 <div className="Total_Precio">
                   <p className="Precio_total">Precio total:</p>
                   <p className="Precio_total_num">
-                    $10.99
+                    ${ state.reduce(
+                      (previousValue, currentValue) => 
+                      previousValue + (currentValue.product_offer_price * currentValue.cart_product_quantity),
+                      0
+                    ).toFixed(2) } USD
                   </p>
                 </div>
               </div>

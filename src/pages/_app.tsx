@@ -54,7 +54,7 @@ import "../styles/componentUI.css"
 
 
 
-import Provider from "../context/productsContext"
+import Provider from "../context/checkout/productsContext"
 import CartState from "../context/cart/CartState"
 
 

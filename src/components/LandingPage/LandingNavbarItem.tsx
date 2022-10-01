@@ -1,15 +1,15 @@
 import React,{ useContext } from 'react'
-import { AppContext } from '../../context/productsContext';
+import { AppContext } from '../../context/checkout/productsContext';
 import ShoppingCart from '../../modal/ShoppingCart';
-import CartContext from '../../context/CartContext';
+import CartContext from '../../context/cart/CartContext';
 
 const LandingNavbarItem = () => {
-  const [ cartIsOpened , setCartIsOpened ] = useContext(AppContext)
-  const { cartItems } = useContext(CartContext)
+  const { cartIsOpened , setCartIsOpened } = useContext(AppContext)
+  const { state, dispatch } = useContext(CartContext)
 
   const addProductsNotification = () =>{
-    if (cartItems.length >= 1){
-      return <div className="cartNotification">{cartItems.length}</div>
+    if (state.length >= 1){
+      return <div className="cartNotification">{state.length}</div>
     }
   }
   
@@ -52,7 +52,10 @@ const LandingNavbarItem = () => {
       </a>
 
       <a className="LandingNavbarButton nav_cart-button"
-        onClick={()=> setCartIsOpened(false)}
+        onClick={()=> {
+          setCartIsOpened(false)
+          console.log(cartIsOpened)
+        }}
       >
         {addProductsNotification()}
         <img
