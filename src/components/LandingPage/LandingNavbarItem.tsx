@@ -54,7 +54,6 @@ const LandingNavbarItem = () => {
       <a className="LandingNavbarButton nav_cart-button"
         onClick={()=> {
           setCartIsOpened(false)
-          console.log(cartIsOpened)
         }}
       >
         {addProductsNotification()}

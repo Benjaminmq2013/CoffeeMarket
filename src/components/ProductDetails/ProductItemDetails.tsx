@@ -1,20 +1,22 @@
 import React, { useContext } from 'react'
 import { productList } from "../../db/productList"
 import { AppContext } from '../../context/checkout/productsContext'
+import { useState } from 'react';
 
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
+
 
 
 const ProductItemDetails = () => {
     const { products , setProducts } = useContext(AppContext)
+    const [checked, setChecked] = useState(false)
+
     const defaultProduct = productList[0]
+
+    const handleCheck = () => setChecked(!checked)
   return (
     <>
       <section className="main_description_container">
-        <div className="main_details">
+        <div className={`main_details ${ checked ? 'full_height' : "hidde_height" }`}>
           <hr />
           <h1>Detalles:</h1>
           <hr />
@@ -177,11 +179,15 @@ const ProductItemDetails = () => {
               </span>
             </div>
           </div>
-          <div className="main_more">
-            <p>ver menos</p>
-            <input type="checkbox" className="checkbox" id="check" />
-          </div>
         </div>
+          <div className="main_more">
+            <p className="productItemDetails-check__button" onClick={ handleCheck }>
+              {checked
+              ? "Ver menos"
+              : "Ver más"}
+            </p>
+            <img className="show_details-icon" src={checked ? "assets/Icons/product-details/show_less.svg" : "assets/Icons/product-details/show_more.svg"} alt="" />
+          </div>
       </section>
     </>
   );

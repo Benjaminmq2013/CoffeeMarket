@@ -23,7 +23,7 @@
 
 /*************** PRODUCT DETAILS SWIPER */
 #main_product .swiper-pointer-events {
-  width: 541px!important;
+  /* width: 541px!important; */
 }
 #main_product .swiper-button-next, .main_product .swiper-button-prev{
   width: 44px;

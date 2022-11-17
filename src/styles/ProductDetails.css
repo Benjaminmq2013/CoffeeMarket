@@ -96,6 +96,17 @@
 }
 
 
+@media(min-width: 500px){
+    .product_details-image{
+
+        display: flex;
+        justify-content: center;
+    }
+    .main_product .imagen {
+        height: 419px;
+        width: 441px;
+    }
+}
 
 @media(max-width: 500px){
     .main_product .imagen{

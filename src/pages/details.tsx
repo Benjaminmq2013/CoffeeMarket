@@ -5,7 +5,7 @@ import ProductItemDetails from '../components/ProductDetails/ProductItemDetails'
 import Footer from "../containers/Footer"
 import Recomendations from "../components/ProductDetails/Recomendations"
 import { productList } from '../db/productList'
-import MenuNav from "../materialize/MenuNav"
+import MenuNav from "../materialize/MenuNav"  
 
 
 
@@ -14,11 +14,13 @@ const details = () => {
     <>
       <Navbar />
       <MenuNav />
+
       <div className="main_container">
         <div className="container_1">
           <ProductItem />
           <ProductItemDetails />
         </div>
+
         <section className="main_recomendations_container">
           <div className="Products">
             {productList.map((product) => (
@@ -26,6 +28,7 @@ const details = () => {
             ))}
           </div>
         </section>
+        
       </div>
 
       <div className='footer_responsive'> 

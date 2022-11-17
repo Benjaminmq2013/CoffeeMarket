@@ -1,3 +1,5 @@
+// Context to manage Open and close Cart. It also manages checkout custom page.
+
 import {createContext, useState, SetStateAction, Dispatch,  } from 'react';
 import { shoppingCartProps } from '../../interfaces/shoppingCartProps';
 
@@ -15,7 +17,7 @@ interface ProductsContextProps{
 const ProductsContext =  ({ children }) =>{
 
     const [ products , setProducts ] = useState<shoppingCartProps> ( {} as shoppingCartProps);
-    const [ cartIsOpened , setCartIsOpened ] = useState<boolean>(false);
+    const [ cartIsOpened , setCartIsOpened ] = useState<boolean>(true);
     const [ productsToBuy , setProductsToBuy ] = useState([]);
     
 
